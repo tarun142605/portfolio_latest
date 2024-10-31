@@ -2,7 +2,7 @@ import React from 'react'
 import Work1 from '../../assets/CodeLoom.png'
 import Work2 from '../../assets/adhicine.png'
 import Work3 from '../../assets/Jobmage.png'
-import Work4 from '../../assets/TvMaze.png'
+import Work4 from '../../assets/Tvmaze.png'
 import Work5 from '../../assets/Flickfever.png'
 import Work6 from '../../assets/soleseeker.jpg'
 export const projectsData=[
