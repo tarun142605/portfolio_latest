@@ -6,14 +6,13 @@
 
 .about__img{
     filter:contrast(1.2) ;
-    width: 400px;
     border-radius: 1.5rem;
     justify-self: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
-    /* animation: profile_animate 5s ease-in-out infinite 1s; */
+    animation: profile_animate 4s ease-in-out infinite 1s;
     zoom: 200%;
     -ms-zoom-animation:inherit;
 }
