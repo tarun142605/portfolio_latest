@@ -13,7 +13,7 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description"> 
-                Enthusiastic Flutter developer that love creating dynamic, user-focused apps, attempting to use knowledge of the AWS Cloud to build scalable and effective solutions. Committed on going education and creativity in order to advance technological advancements.
+                Hey, my name is Prayas Jadaun. I adore building dynamic, user-focused applications, and I'm an eager Flutter developer. Designing scalable and effective solutions is my goal, and I have a strong foundation in AWS Cloud Computing. Because of my commitment to lifelong learning, I'm constantly experimenting with new technologies and pushing the envelope in order to develop meaningful, user-driven experiences. Together, let's create something truly remarkable.
                 </p>
 
                 <a download="" href={CV} className="button button--flex"> Download Resume

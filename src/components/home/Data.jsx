@@ -58,7 +58,7 @@ const Data = () => {
     <h3 className="home__subtitle">
         Flutter Developer
     </h3>
-    <p className="home__description">Enthusiastic Flutter developer that love creating dynamic, user-focused apps, attempting to use knowledge of the AWS Cloud to build scalable and effective solutions. Committed on going education and creativity in order to advance technological advancements.</p>
+    <p className="home__description">Part-time widget whiz, full-time Flutter fan! Equipped with my reliable set of tools, which includes widgets and Bloc patterns, I approach the field of app creation with enthusiasm and accuracy. A well-designed software, in my opinion, is like the ideal animation: responsive, fluid, and astounds users. When I'm not creating dynamic user interfaces, you can probably find me battling layout restrictions or state management issues. Every application I create using Flutter is an experience in creating something aesthetically pleasing, pixel-perfect, and intuitive!</p>
     <a href="#contact" className="button button--flex">
         Say Hello
         <svg
