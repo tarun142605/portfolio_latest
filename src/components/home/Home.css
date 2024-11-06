@@ -21,8 +21,13 @@
 .home__social-icon:hover{
     color: var(--title-color-dark);
 }
+.home__greeting{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
 .home__title{
-    font-size: 33px;
+    font-size: 40px;
     margin-bottom: var(--mb-0-25);
 }
 .home__hand{
