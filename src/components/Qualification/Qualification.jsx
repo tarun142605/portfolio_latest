@@ -29,6 +29,14 @@ const Qualification = () => {
                      <i className="uil uil- briefcase-alt"></i>
                     Internships
                 </div>
+                <div className={toggleState === 3 ?
+                "qualification__button qualification__active button--flex"
+                : "qualification__button button--flex"}
+                onClick={()=> toggleTab(3)}
+                >
+                    <i className="uil uil- qualification__cap"></i>
+                    Experience
+                </div>
             </div>
             <div className="qualification__sections">
                 <div className={
@@ -119,6 +127,49 @@ const Qualification = () => {
                         </div>
                     </div>
                 </div>
+                <div className={
+                    toggleState === 3 ?
+                "qualification__content qualification__content-active"
+                :"qualification__content"
+                } 
+                
+                >
+                    <div className="qualification__data">
+                        <div>
+                            <h3 className="qualification__title">Flutter Developer</h3>
+                            <span className="qualification__subtitle"> Pro Housy Point Tech Solution Pvt. Ltd</span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>
+                               Dec 2024 - Present
+                            </div>
+                        </div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                            
+                        </div>
+                    </div>
+
+                    <div className="qualification__data">
+                    <div>
+
+                    </div>
+                    <div>
+                            <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                        </div>
+                        <div>
+                        <h3 className="qualification__title">Bachelor's of Computer Science</h3>
+                            <span className="qualification__subtitle"> Dau Dayal Institute of Voc. Education</span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>
+                                2018 - 2021
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
             </div>
         </div>
     </section>
