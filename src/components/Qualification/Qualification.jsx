@@ -131,17 +131,16 @@ const Qualification = () => {
             </div>
 
             <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
               <div>
                 <h3 className="qualification__title">Flutter Developer Intern</h3>
                 <span className="qualification__subtitle">Pro Housy Point Tech Solution Pvt. Ltd</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> Dec 2024 - Present
                 </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
