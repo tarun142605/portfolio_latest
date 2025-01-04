@@ -150,23 +150,7 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className="qualification__data">
-                    <div>
-
-                    </div>
-                    <div>
-                            <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                        </div>
-                        <div>
-                        <h3 className="qualification__title">Bachelor's of Computer Science</h3>
-                            <span className="qualification__subtitle"> Dau Dayal Institute of Voc. Education</span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i>
-                                2018 - 2021
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
 
                 
