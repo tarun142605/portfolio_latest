@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Qualification.css";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1); // Default to the first tab
+  const [toggleState, setToggleState] = useState(1);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -101,12 +101,7 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-             <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Flutter Developer Intern</h3>
                 <span className="qualification__subtitle">Pro Housy Point Tech Solution Pvt. Ltd</span>
@@ -114,16 +109,6 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> Dec 2024 - Present
                 </div>
               </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">AWS Cloud Computing</h3>
-                <span className="qualification__subtitle">Linux World Informatics Pvt. Ltd</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> April 2023 - July 2023
-                </div>
-              </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -137,15 +122,27 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
+                <h3 className="qualification__title">AWS Cloud Computing</h3>
+                <span className="qualification__subtitle">Linux World Informatics Pvt. Ltd</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> April 2023 - July 2023
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
                 <h3 className="qualification__title">WordPress Developer</h3>
                 <span className="qualification__subtitle">Saransh Info Tech</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> Jan 2021 - June 2021
                 </div>
               </div>
+              <div>
+                <span className="qualification__rounder"></span>
+              </div>
             </div>
-
-           
+          </div>
 
           {/* Experience Section */}
           <div
@@ -165,7 +162,6 @@ const Qualification = () => {
               </div>
               <div>
                 <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
