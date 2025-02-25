@@ -6,22 +6,22 @@ export const Data =[
     {
         id:1,
         image:Image1,
-        title: "Dhananjay Munda",
+        title: "Prateek",
         description: "An App enthusiast always finding a creative ideas with power of code.",
-        designation:"Frontend Developer"
+        designation:"SDET"
     },
     {
         id:2,
         image:Image2,
-        title: "Khushnam",
-        description: "A outstanding Flutter developer, he brings a unique blend of technical skill and creative flair to every project. Their commitment to excellence and ability to deliver innovative solutions make them a standout member of any team.",
-        designation:"MERN Stack Developer"
+        title: "Mayank Sharma",
+        description: "A outstanding Backend developer, he brings a unique blend of technical skill and creative flair to every project. Their commitment to excellence and ability to deliver innovative solutions make them a standout member of any team.",
+        designation:"Senior Software Developer"
     },
     {
         id:3,
         image:Image3,
-        title: "Akruti Singh",
-        description: "An accomplished Flutter developer, he excels in crafting visually stunning and user-friendly interfaces.",
-        designation:"Full-stack Developer"
+        title: "Aarti",
+        description: "An accomplished Backend developer, he excels in crafting visually stunning and user-friendly interfaces.",
+        designation:"Senior Software Developer"
     },
 ];

@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import AboutImg from '../../assets/about.png'
-import CV from '../../assets/Prayas_Jadaun Resume.pdf'
+import CV from '../../assets/tarunkumar_Resume.pdf'
 import Info from './Info'
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description"> 
-                Part-time widget whiz, full-time Flutter fan! Equipped with my reliable set of tools, which includes widgets and Bloc patterns, I approach the field of app creation with enthusiasm and accuracy. A well-designed software, in my opinion, is like the ideal animation: responsive, fluid, and astounds users. When I'm not creating dynamic user interfaces, you can probably find me battling layout restrictions or state management issues. Every application I create using Flutter is an experience in creating something aesthetically pleasing, pixel-perfect, and intuitive!
+                Code architect by day, problem solver by passion! As a Junior Full Stack Developer, I thrive on building scalable, user-driven applications using PHP (Laravel), Python, C/C++, Java, .NET, and cloud technologies like AWS and Azure. I see software as more than just code—it’s about crafting seamless experiences. Whether refining backend logic or designing intuitive interfaces, I’m always pushing for innovation. Let’s turn ideas into impactful solutions! 
             
                 </p>
 

@@ -10,10 +10,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_ca55fvs',    
-        'template_fvzzx0e',   
+        'service_zfu3b8g',    
+        'template_f56ctia',   
         form.current, 
-        { publicKey: '02B5ZnMFcesoGrAph' } 
+        { publicKey: 'Y6WJkrmAvUUVuY3aV' } 
       )
       .then(() => {
         console.log("Email sent successfully!");
@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">prayashthakur6@gmail.com</span>
+              <span className="contact__card-data">inboxfortarunkumar@gmail.com</span>
               <a href="mailto:prayashthakur6@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">WhatsApp</h3>
-              <span className="contact__card-data">+91 7505645990</span>
+              <span className="contact__card-data">+91 9818445669</span>
               <a href="https://wa.me/917505645990" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>
           </div>

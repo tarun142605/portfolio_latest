@@ -14,7 +14,7 @@ const Data = () => {
       <h2 className="home__greeting">{getGreetingMessage()}. I"m</h2>
       
       <h1 className="home__title">
-        Prayas Jadaun
+        Tarun Kumar
         <svg
           width="36"
           height="36"
@@ -27,9 +27,9 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Flutter Developer</h3>
+      <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
-        Hey, my name is Prayas Jadaun. I adore building dynamic, user-focused applications, and I'm an eager Flutter developer. Designing scalable and effective solutions is my goal, and I have a strong foundation in AWS Cloud Computing. Because of my commitment to lifelong learning, I'm constantly experimenting with new technologies and pushing the envelope in order to develop meaningful, user-driven experiences. Together, let's create something truly remarkable.
+      Hey, I'm Tarun Kumar, a Junior Full Stack Developer with one year of experience in building dynamic, user-focused applications. I specialize in PHP (Laravel), Python, C/C++, Java, .NET, and various databases, with a strong foundation in AWS and Azure Cloud Computing. Passionate about scalable solutions and continuous learning, I push boundaries to create impactful, user-driven experiences. Let’s build something remarkable! 🚀
       </p>
 
       <a href="#contact" className="button button--flex">

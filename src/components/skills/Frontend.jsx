@@ -11,14 +11,14 @@ const Frontend = () => {
             <div className="skills__data">
                 <i className='bx bx-badge-check'></i>
                 <div>
-                    <h3 className="skills__name">Flutter</h3>
+                    <h3 className="skills__name">Laravel</h3>
                     <span className="skills__level">Advanced</span>
                 </div>
             </div>
             <div className="skills__data">
                 <i className='bx bx-badge-check'></i>
                 <div>
-                    <h3 className="skills__name">Android</h3>
+                    <h3 className="skills__name">SQL</h3>
                     <span className="skills__level">Advanced</span>
                 </div>
             </div>
@@ -26,7 +26,7 @@ const Frontend = () => {
             <div className="skills__data">
                 <i className='bx bx-badge-check'></i>
                 <div>
-                    <h3 className="skills__name">Dart</h3>
+                    <h3 className="skills__name">MERN</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
             </div>
@@ -53,6 +53,14 @@ const Frontend = () => {
                     <span className="skills__level">Intermediate</span>
                 </div>
             </div>
+            <div className="skills__data">
+                <i className='bx bx-badge-check'></i>
+                <div>
+                    <h3 className="skills__name">Azure</h3>
+                    <span className="skills__level">Intermediate</span>
+                </div>
+            </div>
+            
             <div className="skills__data">
                 <i className='bx bx-badge-check'></i>
                 <div>

@@ -28,7 +28,7 @@ const Qualification = () => {
             Education
           </div>
 
-          <div
+          {/* <div
             className={
               toggleState === 2
                 ? "qualification__button qualification__active button--flex"
@@ -38,7 +38,7 @@ const Qualification = () => {
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Internships
-          </div>
+          </div> */}
 
           <div
             className={
@@ -66,7 +66,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Master of Computer Application</h3>
-                <span className="qualification__subtitle">K.R Mangalam University</span>
+                <span className="qualification__subtitle">Guru Gobind Singh Indraprastha University</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2023 - Present
                 </div>
@@ -85,9 +85,9 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Bachelor's of Computer Science</h3>
-                <span className="qualification__subtitle">Dau Dayal Institute of Voc. Education</span>
+                <span className="qualification__subtitle">JaganNath University</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2019 - 2022
                 </div>
               </div>
             </div>
@@ -154,10 +154,10 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Flutter Developer</h3>
-                <span className="qualification__subtitle">Pro Housy Point Tech Solution Pvt. Ltd</span>
+                <h3 className="qualification__title">Full Stack Developer</h3>
+                <span className="qualification__subtitle">Z1 Tech, Gurugram</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Dec 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> Jul 2022 - Aug 2023
                 </div>
               </div>
               <div>
